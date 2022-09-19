@@ -20,6 +20,10 @@
 		F45F5C4028D46F17008D098F /* WorkoutStatus.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = F45F5C3C28D46F15008D098F /* WorkoutStatus.intentdefinition */; };
 		F45F5C4128D46F17008D098F /* WorkoutStatus.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = F45F5C3C28D46F15008D098F /* WorkoutStatus.intentdefinition */; };
 		F45F5C4428D46F17008D098F /* WorkoutStatusExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = F45F5C3328D46F15008D098F /* WorkoutStatusExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F490102328D8879E00C5B079 /* fitness1.png in Resources */ = {isa = PBXBuildFile; fileRef = F490102228D8879E00C5B079 /* fitness1.png */; };
+		F490102528D887A500C5B079 /* fitness.png in Resources */ = {isa = PBXBuildFile; fileRef = F490102428D887A500C5B079 /* fitness.png */; };
+		F490102728D887AC00C5B079 /* workout1.gif in Resources */ = {isa = PBXBuildFile; fileRef = F490102628D887AC00C5B079 /* workout1.gif */; };
+		F490102C28D88A5900C5B079 /* README.MD in Resources */ = {isa = PBXBuildFile; fileRef = F490102B28D88A5900C5B079 /* README.MD */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +67,10 @@
 		F45F5C3F28D46F17008D098F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F490101F28D85BE900C5B079 /* iOS16-Live-Activities.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = "iOS16-Live-Activities.entitlements"; sourceTree = "<group>"; };
 		F490102028D85C0600C5B079 /* WidgetDemoExtension.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = WidgetDemoExtension.entitlements; sourceTree = "<group>"; };
+		F490102228D8879E00C5B079 /* fitness1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fitness1.png; sourceTree = "<group>"; };
+		F490102428D887A500C5B079 /* fitness.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fitness.png; sourceTree = "<group>"; };
+		F490102628D887AC00C5B079 /* workout1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = workout1.gif; sourceTree = "<group>"; };
+		F490102B28D88A5900C5B079 /* README.MD */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.MD; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +96,7 @@
 		F45F5C1528D46E58008D098F = {
 			isa = PBXGroup;
 			children = (
+				F490102B28D88A5900C5B079 /* README.MD */,
 				F490102028D85C0600C5B079 /* WidgetDemoExtension.entitlements */,
 				F45F5C2028D46E58008D098F /* LiveActivityTutorial */,
 				F45F5C3928D46F15008D098F /* WorkoutStatus */,
@@ -108,6 +117,7 @@
 		F45F5C2028D46E58008D098F /* LiveActivityTutorial */ = {
 			isa = PBXGroup;
 			children = (
+				F490102128D8876700C5B079 /* blob */,
 				F490101F28D85BE900C5B079 /* iOS16-Live-Activities.entitlements */,
 				F407B66D28D4C74E0038A31F /* Info.plist */,
 				F45F5C2128D46E58008D098F /* LiveActivityTutorialApp.swift */,
@@ -145,6 +155,16 @@
 				F45F5C3F28D46F17008D098F /* Info.plist */,
 			);
 			path = WorkoutStatus;
+			sourceTree = "<group>";
+		};
+		F490102128D8876700C5B079 /* blob */ = {
+			isa = PBXGroup;
+			children = (
+				F490102628D887AC00C5B079 /* workout1.gif */,
+				F490102428D887A500C5B079 /* fitness.png */,
+				F490102228D8879E00C5B079 /* fitness1.png */,
+			);
+			path = blob;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,7 +248,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F490102C28D88A5900C5B079 /* README.MD in Resources */,
+				F490102328D8879E00C5B079 /* fitness1.png in Resources */,
 				F45F5C2928D46E5A008D098F /* Preview Assets.xcassets in Resources */,
+				F490102528D887A500C5B079 /* fitness.png in Resources */,
+				F490102728D887AC00C5B079 /* workout1.gif in Resources */,
 				F45F5C2628D46E5A008D098F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
